@@ -21,7 +21,10 @@ cd MUSI-lab-session-1
 ### 3. Install Dependencies
 
 ```bash
+uv python install 3.10
+uv python pin 3.10
 uv sync
+
 ```
 
 This command creates a virtual environment and installs all required packages (7 dependencies).
