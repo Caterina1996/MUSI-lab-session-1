@@ -13,7 +13,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 ### 2. Clone Repository
 
 ```bash
-git clone https://github.com/ericguerrero/MUSI-lab-session-1.git
+git clone https://github.com/Caterina1996/MUSI-lab-session-1.git
 cd MUSI-lab-session-1
 ```
 
