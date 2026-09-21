@@ -76,7 +76,6 @@ def _():
 
 @app.cell
 def _(os, pd, sys):
-    # TODO: Just using UV could help with this?
     # Setup project environment: navigate to project root and configure pandas
     if os.path.basename(os.getcwd()) == "notebooks":
         os.chdir("..")
@@ -155,8 +154,6 @@ def _(mo):
 
 @app.cell(hide_code=True)
 def _(dataset_selector, go, mo, reader, robot_selector):
-    # TODO: Remove black edge from landmark markers
-    # TODO: Extract some of this plotting logis out to an utils file, this might not be relevant for the students.
     # Interactive map visualization: Hover over points for details, zoom/pan to explore
     fig_map = go.Figure()
 
@@ -307,7 +304,6 @@ def _(Reader, compute_dataset_metrics, pd):
         "MRCLAM_Dataset4",
     ]
     robots_list = ["Robot1", "Robot2", "Robot3", "Robot4", "Robot5"]
-    # TODO: Parameterize the 5000
 
     # Compute metrics for all combinations
     metrics_list = []
